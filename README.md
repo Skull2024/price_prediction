@@ -4,18 +4,17 @@ A project for predicting rental prices for real estate using modern machine lear
 Predicting Rental Prices for Real Estate
 This document provides step-by-step instructions for setting up the project, running the code, and obtaining rental price predictions. Follow these instructions to configure the environment, execute the program, and analyze model performance.
 ________________________________________
+
 1.1. Installation and Running
 Clone the repository:
-
 git clone <https or SSH URL>
-Navigate to the project folder:
 
+Navigate to the project folder:
 cd python_projects
 
 o	Ensure that all files (source code, configuration, models, databases) are located in the correct folders.
 
 1.2. Creating a Virtual Environment
-
 python -m venv venv
 
 •	Activate the Virtual Environment:
