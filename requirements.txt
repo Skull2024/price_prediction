@@ -1,0 +1,15 @@
+# requirements.txt
+pandas
+numpy==1.26.4
+matplotlib
+scikit-learn
+xgboost
+lightgbm
+catboost==1.2.7
+tensorflow
+joblib
+seaborn
+shap
+flask
+tabulate
+shap
