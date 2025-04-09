@@ -73,7 +73,9 @@ def main():
 
         # Этап 6: Запуск прямого прогнозирования
         logging.info("Запускаем direct_predict.py для прогноза...")
-        subprocess.run(["python", os.path.join("src", "direct_predict.py"), selected_city], env=env)
+
+        script_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "src", "direct_predict.py"))
+        subprocess.run(["python", script_path, selected_city], env=env)
 
 if __name__ == "__main__":
     main()
