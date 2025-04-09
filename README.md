@@ -10,7 +10,7 @@ Clone the repository:
 git clone <https or SSH URL>
 
 Navigate to the project folder:
-cd python_projects
+cd price_prediction
 
 o	Ensure that all files (source code, configuration, models, databases) are located in the correct folders.
 
