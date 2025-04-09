@@ -30,23 +30,7 @@ o	Run the following command to install all required packages from the requiremen
 
 pip install -r requirements.txt
 
-•	Verify the Dependencies:
-o	Ensure that the requirements.txt file includes the following dependencies:
-	pandas
-	numpy==1.26.4
-	matplotlib
-	scikit-learn
-	xgboost
-	lightgbm
-	catboost==1.2.7
-	tensorflow
-	joblib
-	seaborn
-	shap
-	flask
-	tabulate
-	shap
-Note: The package shap appears twice. Please verify if this repetition is intentional or if adjustments are needed.
+🚀  python main.py
 
 1.4. Configuring Parameters
 •	Folder Structure:
